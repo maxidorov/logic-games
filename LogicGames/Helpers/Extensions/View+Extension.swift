@@ -32,8 +32,7 @@ extension View {
     Button(action: action) {
       self
     }
-    .buttonStyle(.plain)
-    .symbolRenderingMode(.multicolor)
+    .buttonStyle(.plain) // MARK need .symbolRenderingMode(.multicolor) for iOS 15?
   }
 
   func frame(size: CGSize) -> some View {
