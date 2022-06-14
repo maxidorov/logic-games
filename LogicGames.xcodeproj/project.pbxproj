@@ -7,16 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		727D79852858D2DA00FBBCA4 /* MathLearnigAnswersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D797C2858D2DA00FBBCA4 /* MathLearnigAnswersView.swift */; };
+		727D79862858D2DA00FBBCA4 /* AnwerButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D797D2858D2DA00FBBCA4 /* AnwerButtonsView.swift */; };
+		727D79872858D2DA00FBBCA4 /* MathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D797E2858D2DA00FBBCA4 /* MathGenerator.swift */; };
+		727D798C2858D2DA00FBBCA4 /* MathLearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79842858D2DA00FBBCA4 /* MathLearningView.swift */; };
+		727D79922858D43F00FBBCA4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79912858D43F00FBBCA4 /* GradientView.swift */; };
+		727D79952858D46000FBBCA4 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79942858D46000FBBCA4 /* Color+Extension.swift */; };
+		727D79972858D47A00FBBCA4 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79962858D47A00FBBCA4 /* View+Extension.swift */; };
+		727D799A2858D49900FBBCA4 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79992858D49900FBBCA4 /* Base.swift */; };
+		727D799C2858D4F500FBBCA4 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D799B2858D4F500FBBCA4 /* CounterView.swift */; };
+		727D799F2858D54800FBBCA4 /* ObservableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D799E2858D54800FBBCA4 /* ObservableViewModel.swift */; };
+		727D79A52858D62500FBBCA4 /* VGradientScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79A42858D62500FBBCA4 /* VGradientScrollView.swift */; };
+		727D79A82858D63900FBBCA4 /* BaseBottomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79A72858D63900FBBCA4 /* BaseBottomButton.swift */; };
+		727D79AA2858D65400FBBCA4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79A92858D65400FBBCA4 /* Array+Extension.swift */; };
+		727D79AC2858D67400FBBCA4 /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79AB2858D67400FBBCA4 /* Text+Extension.swift */; };
 		72EA787F2858D18F00C230B0 /* LogicGamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA787E2858D18F00C230B0 /* LogicGamesApp.swift */; };
-		72EA78812858D18F00C230B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA78802858D18F00C230B0 /* ContentView.swift */; };
+		72EA78812858D18F00C230B0 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EA78802858D18F00C230B0 /* AppView.swift */; };
 		72EA78832858D19000C230B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72EA78822858D19000C230B0 /* Assets.xcassets */; };
 		72EA78862858D19000C230B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72EA78852858D19000C230B0 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		727D797C2858D2DA00FBBCA4 /* MathLearnigAnswersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathLearnigAnswersView.swift; sourceTree = "<group>"; };
+		727D797D2858D2DA00FBBCA4 /* AnwerButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnwerButtonsView.swift; sourceTree = "<group>"; };
+		727D797E2858D2DA00FBBCA4 /* MathGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathGenerator.swift; sourceTree = "<group>"; };
+		727D79842858D2DA00FBBCA4 /* MathLearningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathLearningView.swift; sourceTree = "<group>"; };
+		727D79912858D43F00FBBCA4 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		727D79942858D46000FBBCA4 /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		727D79962858D47A00FBBCA4 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		727D79992858D49900FBBCA4 /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		727D799B2858D4F500FBBCA4 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		727D799E2858D54800FBBCA4 /* ObservableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableViewModel.swift; sourceTree = "<group>"; };
+		727D79A42858D62500FBBCA4 /* VGradientScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGradientScrollView.swift; sourceTree = "<group>"; };
+		727D79A72858D63900FBBCA4 /* BaseBottomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseBottomButton.swift; sourceTree = "<group>"; };
+		727D79A92858D65400FBBCA4 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		727D79AB2858D67400FBBCA4 /* Text+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
 		72EA787B2858D18F00C230B0 /* LogicGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogicGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EA787E2858D18F00C230B0 /* LogicGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicGamesApp.swift; sourceTree = "<group>"; };
-		72EA78802858D18F00C230B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72EA78802858D18F00C230B0 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		72EA78822858D19000C230B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72EA78852858D19000C230B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +60,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		727D798D2858D30400FBBCA4 /* MathLearning */ = {
+			isa = PBXGroup;
+			children = (
+				727D797E2858D2DA00FBBCA4 /* MathGenerator.swift */,
+				727D797D2858D2DA00FBBCA4 /* AnwerButtonsView.swift */,
+				727D797C2858D2DA00FBBCA4 /* MathLearnigAnswersView.swift */,
+				727D79842858D2DA00FBBCA4 /* MathLearningView.swift */,
+			);
+			path = MathLearning;
+			sourceTree = "<group>";
+		};
+		727D79902858D43600FBBCA4 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				727D799B2858D4F500FBBCA4 /* CounterView.swift */,
+				727D79912858D43F00FBBCA4 /* GradientView.swift */,
+				727D79A42858D62500FBBCA4 /* VGradientScrollView.swift */,
+				727D79A62858D63000FBBCA4 /* Buttons */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		727D79932858D45500FBBCA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				727D79942858D46000FBBCA4 /* Color+Extension.swift */,
+				727D79962858D47A00FBBCA4 /* View+Extension.swift */,
+				727D79A92858D65400FBBCA4 /* Array+Extension.swift */,
+				727D79AB2858D67400FBBCA4 /* Text+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		727D79982858D48B00FBBCA4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				727D79992858D49900FBBCA4 /* Base.swift */,
+				727D79932858D45500FBBCA4 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		727D799D2858D54200FBBCA4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				727D799E2858D54800FBBCA4 /* ObservableViewModel.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		727D79A62858D63000FBBCA4 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				727D79A72858D63900FBBCA4 /* BaseBottomButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		72EA78722858D18F00C230B0 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +138,11 @@
 			isa = PBXGroup;
 			children = (
 				72EA787E2858D18F00C230B0 /* LogicGamesApp.swift */,
-				72EA78802858D18F00C230B0 /* ContentView.swift */,
+				72EA78802858D18F00C230B0 /* AppView.swift */,
+				727D799D2858D54200FBBCA4 /* Network */,
+				727D79982858D48B00FBBCA4 /* Helpers */,
+				727D79902858D43600FBBCA4 /* CommonViews */,
+				727D798D2858D30400FBBCA4 /* MathLearning */,
 				72EA78822858D19000C230B0 /* Assets.xcassets */,
 				72EA78842858D19000C230B0 /* Preview Content */,
 			);
@@ -137,8 +227,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72EA78812858D18F00C230B0 /* ContentView.swift in Sources */,
+				727D79862858D2DA00FBBCA4 /* AnwerButtonsView.swift in Sources */,
+				727D79A82858D63900FBBCA4 /* BaseBottomButton.swift in Sources */,
+				727D79852858D2DA00FBBCA4 /* MathLearnigAnswersView.swift in Sources */,
+				727D799A2858D49900FBBCA4 /* Base.swift in Sources */,
+				72EA78812858D18F00C230B0 /* AppView.swift in Sources */,
+				727D798C2858D2DA00FBBCA4 /* MathLearningView.swift in Sources */,
+				727D79AA2858D65400FBBCA4 /* Array+Extension.swift in Sources */,
+				727D79A52858D62500FBBCA4 /* VGradientScrollView.swift in Sources */,
+				727D799F2858D54800FBBCA4 /* ObservableViewModel.swift in Sources */,
+				727D79922858D43F00FBBCA4 /* GradientView.swift in Sources */,
+				727D799C2858D4F500FBBCA4 /* CounterView.swift in Sources */,
+				727D79872858D2DA00FBBCA4 /* MathGenerator.swift in Sources */,
+				727D79AC2858D67400FBBCA4 /* Text+Extension.swift in Sources */,
 				72EA787F2858D18F00C230B0 /* LogicGamesApp.swift in Sources */,
+				727D79972858D47A00FBBCA4 /* View+Extension.swift in Sources */,
+				727D79952858D46000FBBCA4 /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
