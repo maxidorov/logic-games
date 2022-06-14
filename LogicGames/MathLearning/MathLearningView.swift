@@ -8,16 +8,20 @@
 import SwiftUI
 
 struct MathLearningView: View {
-  static func make(viewModel: ObservableViewModel, levelId: Int, questions: [Math.Question]) -> MathLearningView {
+  static func make(
+    levelId: Int,
+    questions: [Math.Question],
+    appState: Binding<AppState>
+  ) -> MathLearningView {
     self.init(
-      viewModel: viewModel,
       levelId: levelId,
       questions: questions,
       question: questions[0],
-      questionIndex: 0)
+      questionIndex: 0,
+      appState: appState
+    )
   }
 
-  @ObservedObject var viewModel: ObservableViewModel
   let levelId: Int
   @State var questions: [Math.Question]
   @State var question: Math.Question?
@@ -27,6 +31,8 @@ struct MathLearningView: View {
       question = questions[questionIndex]
     }
   }
+
+  @Binding var appState: AppState
 
   private var currentCounterValue: Int {
     questionIndex + 1
@@ -92,12 +98,12 @@ struct MathLearningView: View {
     .hideNavigationBar()
     .fullScreenCover(isPresented: .constant(question == nil)) {
       MathLearningAnswersView(
-        viewModel: viewModel,
         levelId: levelId,
         questions: questions,
         bottomButtonAction: {
           question = questions.last!
           presentationModeBinding.wrappedValue.dismiss()
+          withAnimation { appState = .menu }
         }
       )
     }

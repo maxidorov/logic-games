@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct MathLearningAnswersView: View {
-  @ObservedObject var viewModel: ObservableViewModel
   let levelId: Int
   let questions: [Math.Question]
   let bottomButtonAction: Action

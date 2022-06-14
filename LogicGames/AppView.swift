@@ -7,14 +7,26 @@
 
 import SwiftUI
 
+enum AppState {
+  case menu
+  case math(level: Int)
+}
+
 struct AppView: View {
-  private let level = 1
+  @State private var appState: AppState = .menu
 
   var body: some View {
-    MathLearningView.make(
-      viewModel: ObservableViewModel(),
-      levelId: level,
-      questions: MathGenerator().generateQuestions(for: level))
+    switch appState {
+    case .menu:
+      MenuView(appState: $appState)
+        .transition(.opacity)
+    case let .math(level):
+      MathLearningView.make(
+        levelId: level,
+        questions: MathGenerator().generateQuestions(for: level),
+        appState: $appState
+      ).transition(.opacity)
+    }
   }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		726848E02858DCC70019CD4C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726848DF2858DCC70019CD4C /* MenuView.swift */; };
 		727D79852858D2DA00FBBCA4 /* MathLearnigAnswersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D797C2858D2DA00FBBCA4 /* MathLearnigAnswersView.swift */; };
 		727D79862858D2DA00FBBCA4 /* AnwerButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D797D2858D2DA00FBBCA4 /* AnwerButtonsView.swift */; };
 		727D79872858D2DA00FBBCA4 /* MathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D797E2858D2DA00FBBCA4 /* MathGenerator.swift */; };
@@ -16,7 +17,6 @@
 		727D79972858D47A00FBBCA4 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79962858D47A00FBBCA4 /* View+Extension.swift */; };
 		727D799A2858D49900FBBCA4 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79992858D49900FBBCA4 /* Base.swift */; };
 		727D799C2858D4F500FBBCA4 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D799B2858D4F500FBBCA4 /* CounterView.swift */; };
-		727D799F2858D54800FBBCA4 /* ObservableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D799E2858D54800FBBCA4 /* ObservableViewModel.swift */; };
 		727D79A52858D62500FBBCA4 /* VGradientScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79A42858D62500FBBCA4 /* VGradientScrollView.swift */; };
 		727D79A82858D63900FBBCA4 /* BaseBottomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79A72858D63900FBBCA4 /* BaseBottomButton.swift */; };
 		727D79AA2858D65400FBBCA4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727D79A92858D65400FBBCA4 /* Array+Extension.swift */; };
@@ -29,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		726848DD2858DA8B0019CD4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		726848DF2858DCC70019CD4C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		727D797C2858D2DA00FBBCA4 /* MathLearnigAnswersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathLearnigAnswersView.swift; sourceTree = "<group>"; };
 		727D797D2858D2DA00FBBCA4 /* AnwerButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnwerButtonsView.swift; sourceTree = "<group>"; };
 		727D797E2858D2DA00FBBCA4 /* MathGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathGenerator.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		727D79962858D47A00FBBCA4 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		727D79992858D49900FBBCA4 /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		727D799B2858D4F500FBBCA4 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
-		727D799E2858D54800FBBCA4 /* ObservableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableViewModel.swift; sourceTree = "<group>"; };
 		727D79A42858D62500FBBCA4 /* VGradientScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGradientScrollView.swift; sourceTree = "<group>"; };
 		727D79A72858D63900FBBCA4 /* BaseBottomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseBottomButton.swift; sourceTree = "<group>"; };
 		727D79A92858D65400FBBCA4 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
@@ -61,6 +61,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		726848DE2858DCB60019CD4C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				726848DF2858DCC70019CD4C /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		727D798D2858D30400FBBCA4 /* MathLearning */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,14 +111,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		727D799D2858D54200FBBCA4 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				727D799E2858D54800FBBCA4 /* ObservableViewModel.swift */,
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
 		727D79A62858D63000FBBCA4 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,7 +141,7 @@
 				726848DD2858DA8B0019CD4C /* Info.plist */,
 				72EA787E2858D18F00C230B0 /* LogicGamesApp.swift */,
 				72EA78802858D18F00C230B0 /* AppView.swift */,
-				727D799D2858D54200FBBCA4 /* Network */,
+				726848DE2858DCB60019CD4C /* Menu */,
 				727D79982858D48B00FBBCA4 /* Helpers */,
 				727D79902858D43600FBBCA4 /* CommonViews */,
 				727D798D2858D30400FBBCA4 /* MathLearning */,
@@ -236,8 +236,8 @@
 				72EA78812858D18F00C230B0 /* AppView.swift in Sources */,
 				727D798C2858D2DA00FBBCA4 /* MathLearningView.swift in Sources */,
 				727D79AA2858D65400FBBCA4 /* Array+Extension.swift in Sources */,
+				726848E02858DCC70019CD4C /* MenuView.swift in Sources */,
 				727D79A52858D62500FBBCA4 /* VGradientScrollView.swift in Sources */,
-				727D799F2858D54800FBBCA4 /* ObservableViewModel.swift in Sources */,
 				727D79922858D43F00FBBCA4 /* GradientView.swift in Sources */,
 				727D799C2858D4F500FBBCA4 /* CounterView.swift in Sources */,
 				727D79872858D2DA00FBBCA4 /* MathGenerator.swift in Sources */,
