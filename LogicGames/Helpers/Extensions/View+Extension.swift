@@ -54,6 +54,7 @@ extension View {
     NavigationView {
       hideNavigationBar()
     }
+    .navigationViewStyle(StackNavigationViewStyle())
   }
 
   @ViewBuilder
