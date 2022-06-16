@@ -91,7 +91,6 @@
 		EA608CF3285B6E8200A0D113 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA608CF2285B6E8200A0D113 /* FirebaseManager.swift */; };
 		EA608D05285B6EF400A0D113 /* EmptyRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA608CF8285B6EF300A0D113 /* EmptyRect.swift */; };
 		EA608D07285B6EF400A0D113 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA608CFA285B6EF300A0D113 /* CounterView.swift */; };
-		EA608D0C285B6EF400A0D113 /* BrainFitnessLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA608CFF285B6EF400A0D113 /* BrainFitnessLogo.swift */; };
 		EA608D1D285B6F3E00A0D113 /* SlideshowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA608D0E285B6F3D00A0D113 /* SlideshowView.swift */; };
 		EA608D1E285B6F3E00A0D113 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA608D0F285B6F3D00A0D113 /* TimerView.swift */; };
 		EA608D1F285B6F3E00A0D113 /* LogicGamesLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA608D10285B6F3D00A0D113 /* LogicGamesLogo.swift */; };
@@ -107,6 +106,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7257005E285B8D8300A42568 /* LogicGames.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LogicGames.entitlements; sourceTree = "<group>"; };
 		72EA787B2858D18F00C230B0 /* LogicGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogicGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EA787E2858D18F00C230B0 /* LogicGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicGamesApp.swift; sourceTree = "<group>"; };
 		72EA78852858D19000C230B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -194,7 +194,6 @@
 		EA608CF2285B6E8200A0D113 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		EA608CF8285B6EF300A0D113 /* EmptyRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyRect.swift; sourceTree = "<group>"; };
 		EA608CFA285B6EF300A0D113 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
-		EA608CFF285B6EF400A0D113 /* BrainFitnessLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrainFitnessLogo.swift; sourceTree = "<group>"; };
 		EA608D0E285B6F3D00A0D113 /* SlideshowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideshowView.swift; sourceTree = "<group>"; };
 		EA608D0F285B6F3D00A0D113 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		EA608D10285B6F3D00A0D113 /* LogicGamesLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogicGamesLogo.swift; sourceTree = "<group>"; };
@@ -251,6 +250,7 @@
 		72EA787D2858D18F00C230B0 /* LogicGames */ = {
 			isa = PBXGroup;
 			children = (
+				7257005E285B8D8300A42568 /* LogicGames.entitlements */,
 				EA600604285B5FF300FED81D /* Assets.xcassets */,
 				EA6005EA285B5FF200FED81D /* CommonViews */,
 				EA60060C285B5FF300FED81D /* DataModel.swift */,
@@ -466,7 +466,6 @@
 				EA6005F1285B5FF200FED81D /* SlideshowView.swift */,
 				EA6005F2285B5FF200FED81D /* PrivacyPolicyFooter.swift */,
 				EA6005F3285B5FF200FED81D /* ProgressView.swift */,
-				EA608CFF285B6EF400A0D113 /* BrainFitnessLogo.swift */,
 				EA608CFA285B6EF300A0D113 /* CounterView.swift */,
 				EA608CF8285B6EF300A0D113 /* EmptyRect.swift */,
 				EA6005F7285B5FF200FED81D /* TimerView.swift */,
@@ -678,7 +677,6 @@
 				EA600623285B5FF300FED81D /* MemorizingWordsView.swift in Sources */,
 				EA60060E285B5FF300FED81D /* LoadingViewContainer.swift in Sources */,
 				EA60065D285B5FF300FED81D /* DatabasePaths.swift in Sources */,
-				EA608D0C285B6EF400A0D113 /* BrainFitnessLogo.swift in Sources */,
 				EA600659285B5FF300FED81D /* OnboardingFirstView.swift in Sources */,
 				EA600625285B5FF300FED81D /* ColorsInitialView.swift in Sources */,
 				EA608D2A285B6F3E00A0D113 /* BarLoadingView.swift in Sources */,
@@ -877,6 +875,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LogicGames/LogicGames.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"LogicGames/Preview Content\"";
@@ -910,6 +909,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LogicGames/LogicGames.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"LogicGames/Preview Content\"";
