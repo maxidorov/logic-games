@@ -1,6 +1,6 @@
 //
 //  View+Extension.swift
-//  BrainFitness
+//  LogicGames
 //
 //  Created by Maxim V. Sidorov on 12/13/21.
 //
@@ -32,7 +32,8 @@ extension View {
     Button(action: action) {
       self
     }
-    .buttonStyle(.plain) // MARK need .symbolRenderingMode(.multicolor) for iOS 15?
+    .buttonStyle(.plain)
+    .symbolRenderingMode(.multicolor)
   }
 
   func frame(size: CGSize) -> some View {
@@ -54,7 +55,6 @@ extension View {
     NavigationView {
       hideNavigationBar()
     }
-    .navigationViewStyle(StackNavigationViewStyle())
   }
 
   @ViewBuilder

@@ -1,6 +1,6 @@
 //
 //  CounterView.swift
-//  BrainFitness
+//  LogicGames
 //
 //  Created by Maxim V. Sidorov on 12/16/21.
 //

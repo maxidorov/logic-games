@@ -1,6 +1,6 @@
 //
 //  GradientView.swift
-//  BrainFitness
+//  LogicGames
 //
 //  Created by Maxim V. Sidorov on 12/10/21.
 //

@@ -1,6 +1,6 @@
 //
 //  Array+Extension.swift
-//  BrainFitness
+//  LogicGames
 //
 //  Created by Maxim V. Sidorov on 12/14/21.
 //
