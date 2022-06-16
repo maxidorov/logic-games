@@ -51,7 +51,7 @@ enum LevelType: String, CaseIterable {
       return "20 words"
     case .mathLearning:
       let count = MathGenerator().getNumberOfQuestions(for: levelId)
-      return "\(count) exercised"
+      return "\(count) exercises"
     case .quiz:
       return "Let's learn Capitals"
     case .colors:

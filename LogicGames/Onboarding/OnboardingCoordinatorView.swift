@@ -20,9 +20,14 @@ struct OnboardingCoordinatorView: View {
 
   var body: some View {
     let nextViewAction = {
-      if viewNumber == 3{
+#warning("TODO: remove it, subscription turned off only for first release")
+      if viewNumber == 2 {
         needPresentLoadingView = true
-      } else {
+      }
+      //      if viewNumber == 3 {
+      //        needPresentLoadingView = true
+      //      }
+      else {
         viewNumber += 1
       }
     }
@@ -35,8 +40,15 @@ struct OnboardingCoordinatorView: View {
       OnboardingSecondView(viewModel: viewModel, bottomButtonAction: nextViewAction)
         .slideAnimationTransition()
     case 2:
+      ///
+#warning("1 TODO: remove fullScreenCover, subscription turned off only for first release")
       OnboardingThirdView(viewModel: viewModel, bottomButtonAction: nextViewAction)
         .slideAnimationTransition()
+        .fullScreenCover(isPresented: $needPresentLoadingView) {
+          LoadingViewContainer(viewModel: viewModel)
+        }
+#warning("2 TODO: remove fullScreenCover, subscription turned off only for first release")
+      ///
     case 3:
       OnboardingFourthView(
         viewModel: viewModel,
