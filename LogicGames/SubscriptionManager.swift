@@ -76,7 +76,8 @@ final class SubscriptionManager: ObservableObject {
   }
 
   func hasActiveSubscription() -> Bool {
-    Apphud.hasActiveSubscription()
+    #warning("TODO: remove it, subscription turned off only for first release")
+    return true //Apphud.hasActiveSubscription()
   }
 }
 

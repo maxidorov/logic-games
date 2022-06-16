@@ -42,6 +42,7 @@ struct LogicGamesApp: App {
   var body: some Scene {
     WindowGroup {
       startView
+        .environment(\.colorScheme, .light)
     }
   }
 }

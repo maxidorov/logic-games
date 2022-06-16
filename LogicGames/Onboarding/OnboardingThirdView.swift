@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct OnboardingThirdView: View {
   @ObservedObject var viewModel: ObservableViewModel
@@ -33,6 +34,15 @@ struct OnboardingThirdView: View {
         Text(subtitle)
           .boldWhite
           .multilineTextAlignment(.center)
+
+        Button {
+          #warning("TODO: move it to logic layer")
+          Auth.auth().signInAnonymously { authResult, error in
+            bottomButtonAction()
+          }
+        } label: {
+          Text("Sign in as Guest").boldWhite
+        }
         
         SignInWithAppleToFirebase({ response in
           switch response {

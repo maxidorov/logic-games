@@ -44,7 +44,9 @@ class ObservableViewModel: ObservableObject {
   }
 
   func checkSubscriptionStatus() {
-    hasActiveSubscription = subscriptionManager.hasActiveSubscription()
+#warning("TODO: remove it, subscription turned off only for first release")
+    //hasActiveSubscription = subscriptionManager.hasActiveSubscription()
+    hasActiveSubscription = true
   }
 
   func setInitialProgressIfNeeded(completion: @escaping ErrorBlock) {
